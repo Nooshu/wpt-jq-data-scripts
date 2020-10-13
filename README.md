@@ -1,7 +1,13 @@
 # WebPageTest jq data scripts
 A set of `jq` scripts used to extract useful data from WebPageTest (WPT).
 
-I've created this repo off the back of [this blog post](https://nooshu.github.io/blog/2020/10/09/using-jq-with-the-webpagetest-api/) I wrote about extracting certain data from the WebPageTest API using `jq`, which can then be used for other means.
+This repo is a follow up to [this blog post](https://nooshu.github.io/blog/2020/10/09/using-jq-with-the-webpagetest-api/) I wrote about extracting certain data from the WebPageTest API using `jq`, which can then be used for other means.
+
+## Motivation
+I've created this repo to allow myself and others to quickly extract certain information from a WebPageTest API JSON blob (mainly as in CSV format), that will allow the data to be easily plotted in graphing tools. This gives people the ability to save / edit / modify graphs very quickly for presentations, blog posts etc.
+
+In all the examples below I have used Google Sheets to plot the graphs. The [example spreadsheet can be found here](https://docs.google.com/spreadsheets/d/1aTfGyGWh0586GaGI7YbOVqdQBITVzNewV9nXyrRxDfU/edit#gid=657404292).
+
 
 ## Graph script scenarios
 
@@ -367,7 +373,7 @@ Median run from each test.
 
 ---
 
-## Utilities
+## Utility script scenarios
 
 ### Generate a basic schema
 
